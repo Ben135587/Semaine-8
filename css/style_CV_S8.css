@@ -1,0 +1,341 @@
+/*-------------------------- BASE -------------------------------*/
+p{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+h1, h2, h3{
+	text-align:center;
+}
+
+
+li {
+    text-align:left;
+	list-style-type: none;
+    padding : 10px;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+}
+
+a:link{
+    color:dimgrey;
+}
+a:visited {
+    text-decoration: none;
+    color: #844;
+}
+a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.joli{
+    font-weight : bold;
+}
+/*-------------------------- LAYOUT -------------------------------*/
+
+#Users{
+   	display:flex;
+	position:relative;
+	width: auto;
+    max-width: 960px;
+	height: 150px;
+    padding: 10px;
+    margin: 15px;
+    background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png') ;
+    border-radius: 10px;
+	box-shadow: 2px 3px #D8D8D8;
+    border: 1px solid grey;
+	vertical-align:middle;
+	font-family: Courier ;
+    text-align: center;
+	color: white;
+}
+
+#Nom_fonction{
+	width:auto;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#avatar{
+	display:block;
+	position:absolute;
+	right:10px;
+	margin-top:15px;
+}
+
+/*.container{
+	width: auto;
+	max-width:960px;
+}*/
+
+.contents1{
+	display:flex;
+	width: auto;
+    max-width: 960px;
+    background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ignasi_pattern_s.png') 15px;
+    border-radius: 10px;
+	padding: 10px;
+    margin: 15px;
+}
+
+.contents2{
+	display:flex;
+	width: auto;
+    max-width: 960px;
+    background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/mirrored_squares.png') 15px;
+    border-radius: 10px;
+	padding: 10px;
+    margin: 15px;
+	text-align: center;
+}
+
+/*-------------------------- PICTURES -------------------------------*/
+
+#photo_moi{
+	width : 75px;
+	max-height: 100px;
+    border-radius: 10px; 
+	box-shadow: 1px 1px #D3D3D3;
+}
+
+/*-------------------------- RESPONSIVES -----------------------------*/
+@media screen and (max-width: 630px)
+{/* Rédigez vos propriétés CSS ici */
+    #Users{
+		height:280px;
+	}
+		
+	#avatar{
+		right:45%;
+		bottom:25px;
+	}
+	
+}
+
+/*--------------------------PORTFOLIO ---------------------------------*/
+#info {
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;              
+    background:#fcf8e3;
+    border:1px solid  #fbeed5;
+    width:95%;
+    max-width:900px;
+    margin:0 auto 40px auto;
+    font-family:arial;
+    font-size:12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+#info .info-wrapper {
+    padding:10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+}
+    
+#info a {
+    color:#c09853;
+    text-decoration:none;
+}   
+    
+#info p {
+    margin:5px 0 0 0;
+}
+
+
+.container { 
+    position: relative; 
+    width: 960px; 
+    margin: 0 auto; 
+    -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+ 
+#filters {
+    margin:1%;
+    padding:0;
+    list-style:none;
+}
+
+#filters li {
+    float:left;
+}
+    
+#filters li span {
+    display: block;
+    padding:5px 20px;       
+    text-decoration:none;
+    color:#666;
+    cursor: pointer;
+}
+    
+#filters li span .active {
+    background: #e95a44;
+    color:#fff;
+}
+ 
+#portfoliolist .portfolio {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width:23%;
+    margin:1%;
+    display:none;
+    float:left;
+    overflow:hidden;
+}
+
+.portfolio-wrapper {
+    overflow:hidden;
+    position: relative !important;
+    background: #666;
+    cursor:pointer;
+}
+
+.portfolio img {
+    max-width:100%;
+    position: relative;
+}
+    
+.portfolio .label {
+    position: absolute;
+    width: 100%;
+    height:40px;
+    bottom:-40px;
+}
+
+.portfolio .label-bg {
+    background: #e95a44;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+    
+.portfolio .label-text {
+    color:#fff;
+    position: relative;
+    z-index:500;
+    padding:5px 8px;
+}
+            
+.portfolio .text-category {
+    display:block;
+    font-size:9px;
+}
+
+
+/*-------------FORMULAIRE DE CONTACT-----------------------*/
+
+label{
+    width:80px;
+    vertical-align: top;
+    line-height: 30px;
+}
+
+input{
+    vertical-align: center;
+}
+textarea{
+    width:350px;
+    height:250px;
+}
+
+#form_content{
+    margin-top:10px;
+    border-top:3px solid white;
+    
+}
+
+.contact{
+	margin-bottom: 10px;
+    vertical-align: center;
+    text-align:left;
+}
+
+
+
+#message{
+    padding:15px;
+}
+
+
+
+
+/* #Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container {
+        width: 768px; 
+    }
+    
+}
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+    .container { 
+        width: 95%; 
+    }
+    
+    #portfoliolist .portfolio {
+        width:48%;
+        margin:1%;
+    }       
+
+    #ads {
+        display:none;
+    }
+    
+}
+
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 70%;
+    }
+    
+    #ads {
+        display:none;
+    }
+    
+}
+
+/* #Clearing */
+
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+.clear {
+  clear: both;
+
